@@ -1,0 +1,253 @@
+language: csharp
+
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: nightly
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: alpha
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: beta
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: 5.0.1
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: 5.0.0
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: nightly
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: alpha
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: beta
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: 5.0.1
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: 5.0.0
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: nightly
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: alpha
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: beta
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: 5.0.1
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: trusty
+      sudo: required
+      mono: 5.0.0
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: nightly
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: alpha
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: beta
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: 5.0.1
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: linux
+      dist: precise
+      sudo: required
+      mono: 5.0.0
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: nightly
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: alpha
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: beta
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: 5.0.1
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: 5.0.0
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: nightly
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: alpha
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: beta
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: 5.0.1
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: 5.0.0
+      env: build_config=Release
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: nightly
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: alpha
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: beta
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: 5.0.1
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      mono: 5.0.0
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: nightly
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: alpha
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: beta
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: 5.0.1
+      env: build_config=Debug
+      env: netmoniker=net461
+    - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      mono: 5.0.0
+      env: build_config=Debug
+      env: netmoniker=net461
+
+
+#before_install:
+
+before_script:
+  - source ./restore.sh
+
+script:
+  - ./build.sh
