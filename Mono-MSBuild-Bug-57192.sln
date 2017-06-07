@@ -8,8 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{90DF2951-A6AE-4AEF-9BCF-55DCF4FEFF3E}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
-		build.sh = build.sh
-		restore.sh = restore.sh
+		build.cake = build.cake
 	EndProjectSection
 EndProject
 Global
