@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{90DF2951
 		build.cake = build.cake
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computator.NET.Charting", "Computator.NET.Charting\Computator.NET.Charting.csproj", "{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DD32AF84-F033-4BE4-B1F0-AFB356A80F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD32AF84-F033-4BE4-B1F0-AFB356A80F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD32AF84-F033-4BE4-B1F0-AFB356A80F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

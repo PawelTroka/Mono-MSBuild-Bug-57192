@@ -88,6 +88,8 @@ if(!IsRunningOnWindows())
 Task("Clean")
 	.Does(() =>
 {
+	DeleteDirectories(GetDirectories("Computator.NET.Charting*/**/bin"), recursive:true);
+	DeleteDirectories(GetDirectories("Computator.NET.Charting*/**/bin"), recursive:true);
 	DeleteDirectories(GetDirectories("Mono-MSBuild-Bug-57192*/**/bin"), recursive:true);
 	DeleteDirectories(GetDirectories("Mono-MSBuild-Bug-57192*/**/obj"), recursive:true);
 });
@@ -123,12 +125,12 @@ Task("Build")
 	if(IsRunningOnWindows() || isMonoButSupportsMsBuild)
 	{
 	  // Use MSBuild
-	  MSBuild("Mono-MSBuild-Bug-57192/Mono-MSBuild-Bug-57192.csproj", msBuildSettings);
+	  MSBuild("Mono-MSBuild-Bug-57192.sln", msBuildSettings);
 	}
 	else
 	{
 	  // Use XBuild
-	  XBuild("Mono-MSBuild-Bug-57192/Mono-MSBuild-Bug-57192.csproj", xBuildSettings);
+	  XBuild("Mono-MSBuild-Bug-57192.sln", xBuildSettings);
 	}
 });
 
