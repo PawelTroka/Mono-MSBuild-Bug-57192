@@ -88,10 +88,7 @@ if(!IsRunningOnWindows())
 Task("Clean")
 	.Does(() =>
 {
-	DeleteDirectories(GetDirectories("Computator.NET.Charting*/**/bin"), recursive:true);
-	DeleteDirectories(GetDirectories("Computator.NET.Charting*/**/bin"), recursive:true);
-	DeleteDirectories(GetDirectories("Mono-MSBuild-Bug-57192*/**/bin"), recursive:true);
-	DeleteDirectories(GetDirectories("Mono-MSBuild-Bug-57192*/**/obj"), recursive:true);
+	DeleteDirectories(GetDirectories("Computator.NET*/**/bin"), recursive:true);
 });
 
 Task("Restore")
