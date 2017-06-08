@@ -6,9 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Computator.NET Charting Library")]
-[assembly: AssemblyDescription("Charting library for Computator.NET")]
+[assembly: AssemblyTitle("Computator.NET Data types library")]
+[assembly: AssemblyDescription("Data types for Computator.NET")]
+
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
-[assembly: Guid("8c3580b6-6577-4670-9f89-c933ded865b8")]
+[assembly: Guid("4c51394b-a204-4057-80a1-0d01a318579b")]

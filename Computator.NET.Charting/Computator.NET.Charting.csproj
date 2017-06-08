@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.4.10" />
+    <ProjectReference Include="..\Computator.NET.DataTypes\Computator.NET.DataTypes.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net40'">
     <PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
@@ -53,10 +54,29 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Page Include="Chart3D\UI\Chart3DControl.xaml" Condition=" '$(OS)' != 'Unix' ">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Chart3D\UI\Chart3DControlMono.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Chart3D\UI\EditChart3DWindow.designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Chart3D\UI\UnitsComboBox.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ComplexCharting\ComplexChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ComplexCharting\EditComplexChartWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ComplexCharting\EditComplexChartWindow.Designer.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="EditChartProperties.cs">
       <SubType>Form</SubType>
@@ -64,7 +84,19 @@
     <Compile Update="EditChartProperties.designer.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PlotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PlotForm.Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RealCharting\Chart2D.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="RealCharting\EditChartWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RealCharting\EditChartWindow.Designer.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

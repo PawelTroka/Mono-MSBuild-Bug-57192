@@ -117,10 +117,116 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Zrušit</value>
+  <data name="Expression_should_not_be_empty_" xml:space="preserve">
+    <value>Výraz nemůže být prázdný !</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Upravit vlastnosti grafu</value>
+  <data name="AddToChart" xml:space="preserve">
+    <value>Přidat do grafu</value>
+  </data>
+  <data name="DrawChart" xml:space="preserve">
+    <value>Nakreslete</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="GivenΕIsNotValidΕShouldBeSmallPositiveNumber" xml:space="preserve">
+    <value>Uvedené ε je nesprávné. ε by mělo být malé kladné číslo .</value>
+  </data>
+  <data name="GivenΕIsNotValid" xml:space="preserve">
+    <value>Uvedené ε je nesprávné.</value>
+  </data>
+  <data name="ConsoleOutput" xml:space="preserve">
+    <value>Výstup konzoli:</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Vlastnosti:</value>
+  </data>
+  <data name="PleaseReportAnyBugsToPawełTrokaPtrokaFizykaDk" xml:space="preserve">
+    <value>Nahlaste nám prosím jakékoliv chyby na ptroka@fizyka.dk - Paweł Troka.</value>
+  </data>
+  <data name="BugReporting" xml:space="preserve">
+    <value>Hlášení chyb</value>
+  </data>
+  <data name="Chart" xml:space="preserve">
+    <value>Graf</value>
+  </data>
+  <data name="ItSFeaturesInclude" xml:space="preserve">
+    <value>Mezi jeho vlastnosti patří :</value>
+  </data>
+  <data name="Source_" xml:space="preserve">
+    <value>Zdroj:</value>
+  </data>
+  <data name="ErrorInExpressionSyntaxOneOfUsedFunctionsDoesNotExistIsIncompatibleWithGivenArgumentsOrYouJustMadeAMistakeWritingExpression" xml:space="preserve">
+    <value>Syntaktická chyba ve výrazu . Jedna z používaných funkcí neexistuje / není v souladu s uvedenými argumenty , nebo prostě jste jen udělali chybu v zápisu.</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Podrobné informace:</value>
+  </data>
+  <data name="MoreDetails" xml:space="preserve">
+    <value>Více informací :</value>
+  </data>
+  <data name="NoFunctionToInvoke" xml:space="preserve">
+    <value>Žádná funkce neni k vyvolání</value>
+  </data>
+  <data name="featuresInclude" xml:space="preserve">
+    <value>- Grafy reálních a komplexních funkcí
+- Reální a komplexní kalkulačka
+- Výpočet skutečných numerických funkcí, včetně různých metod
+- Více než 107 elementárních funkcí
+- Více než 141 speciálních funkcí
+- Více než 21 funkcí a operací s maticemi
+- Výkonný skriptovací jazyk pro jednoduché výpočty , s ohledem na matice
+- Můžete deklarovat své vlastní funkce ve skriptovacím jazyce</value>
+  </data>
+  <data name="MemoryAllocationSpeedTestCancelledByUser" xml:space="preserve">
+    <value>Test výkonnosti alokace paměti byl zrušen uživatelem</value>
+  </data>
+  <data name="MemoryAllocationSpeedTestDoneSuccesfullyCheckOutYourPointsResult" xml:space="preserve">
+    <value>Test výkonnosti alokace paměti úspěšně ukončený - zkontrolujte výsledky</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Hotovo</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Výsledek:</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Body!</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Zrušeno!</value>
+  </data>
+  <data name="MathFunctionsCalculationSpeedTestDoneSuccesfullyCheckOutYourPointsResults" xml:space="preserve">
+    <value>Test výkonu pro výpočet matematických funkcí byl úspěšně proveden! Zkontrolujte vaše skóre!</value>
+  </data>
+  <data name="MathFunctionsCalculationSpeedTestCancelledByUser" xml:space="preserve">
+    <value>Test výkonu pro výpočet matematických funkcí byl zrušen uživatelem .</value>
+  </data>
+  <data name="librariesUsed" xml:space="preserve">
+    <value>používáne knihovny</value>
+  </data>
+  <data name="betaTesters" xml:space="preserve">
+    <value>beta testery</value>
+  </data>
+  <data name="otherContributors" xml:space="preserve">
+    <value>ostatní účastníci</value>
+  </data>
+  <data name="translators" xml:space="preserve">
+    <value>překladatelé</value>
+  </data>
+  <data name="SpecialThanksTo" xml:space="preserve">
+    <value>Zvláštní poděkování patří:</value>
+  </data>
+  <data name="XYRatio0" xml:space="preserve">
+    <value>| X / Y poměr = {0} |</value>
+  </data>
+  <data name="Syntax_error" xml:space="preserve">
+    <value>Chyba syntaxe</value>
+  </data>
+  <data name="Exception_during_startup" xml:space="preserve">
+    <value>Vyjimka pri nastartovani</value>
+  </data>
+  <data name="Close_tabs_to_the_right" xml:space="preserve">
+    <value>Zavri karty z prave strany</value>
   </data>
 </root>

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mono-MSBuild-Bug-57192", "Mono-MSBuild-Bug-57192\Mono-MSBuild-Bug-57192.csproj", "{DD32AF84-F033-4BE4-B1F0-AFB356A80F76}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{90DF2951-A6AE-4AEF-9BCF-55DCF4FEFF3E}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
 		build.cake = build.cake
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computator.NET.Charting", "Computator.NET.Charting\Computator.NET.Charting.csproj", "{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computator.NET.DataTypes", "Computator.NET.DataTypes\Computator.NET.DataTypes.csproj", "{66D600D2-C0C4-4C90-B32A-310F62E1A850}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computator.NET.Charting", "Computator.NET.Charting\Computator.NET.Charting.csproj", "{7878522E-B153-4A63-9ECC-595BA7F5B001}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DD32AF84-F033-4BE4-B1F0-AFB356A80F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD32AF84-F033-4BE4-B1F0-AFB356A80F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD32AF84-F033-4BE4-B1F0-AFB356A80F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD32AF84-F033-4BE4-B1F0-AFB356A80F76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A00FBA32-8BC6-48EA-BD17-4FAC2F2D0075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D600D2-C0C4-4C90-B32A-310F62E1A850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D600D2-C0C4-4C90-B32A-310F62E1A850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D600D2-C0C4-4C90-B32A-310F62E1A850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D600D2-C0C4-4C90-B32A-310F62E1A850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7878522E-B153-4A63-9ECC-595BA7F5B001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7878522E-B153-4A63-9ECC-595BA7F5B001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7878522E-B153-4A63-9ECC-595BA7F5B001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7878522E-B153-4A63-9ECC-595BA7F5B001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
