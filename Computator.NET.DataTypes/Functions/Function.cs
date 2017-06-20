@@ -160,8 +160,6 @@ namespace Computator.NET.DataTypes
 
                 var message = "Calculation Error, details:" + Environment.NewLine + exception.Message;
 
-                Logger.Error(exception, message + $" {sb}");
-
                 throw new CalculationException(message, exception);
             }
             return double.NaN;
@@ -212,8 +210,7 @@ namespace Computator.NET.DataTypes
                
 
                 var message = "Calculation Error, details:" + Environment.NewLine + exception.Message;
-
-                Logger.Error(exception, message+$" {sb.ToString()}");
+                
 
                 throw new CalculationException(message, exception);
             }

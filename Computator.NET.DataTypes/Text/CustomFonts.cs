@@ -4,7 +4,6 @@ using System.Drawing.Text;
 using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using NLog;
 
 namespace Computator.NET.DataTypes
 {
@@ -12,8 +11,6 @@ namespace Computator.NET.DataTypes
     {
         [DllImport("gdi32.dll")]
         private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont, IntPtr pdv, [In] ref uint pcFonts);
-
-        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
 
         private static PrivateFontCollection mathFontCollection;
 
@@ -70,8 +67,6 @@ namespace Computator.NET.DataTypes
                 var nex =
                     new Exception(
                         "Probably missing " + pathToMathFont + " or " + pathToScriptFont + " file\nDetails:" + ex.Message, ex);
-
-                Logger.Error(ex, "Probably missing " + pathToMathFont + " file\nDetails:" + ex.Message);
                 throw nex;
             }
         }

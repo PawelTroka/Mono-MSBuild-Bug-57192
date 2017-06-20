@@ -7,7 +7,6 @@ using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using Computator.NET.DataTypes;
 using Computator.NET.DataTypes.Charts;
-using NLog;
 
 namespace Computator.NET.Charting.RealCharting
 {
@@ -719,8 +718,6 @@ namespace Computator.NET.Charting.RealCharting
             else if (e.Delta < 0)
                 zoomOut();
         }
-
-        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
         private void _refreshFunctions()
         {
             Series.Clear();
@@ -730,7 +727,6 @@ namespace Computator.NET.Charting.RealCharting
 
             if (dx <= 0 || dy <= 0)
             {
-                Logger.Warn($"dx '{dx}' or dy '{dy}' less than 0. Chart will not be drawn.");
                 return;
             }
 
@@ -795,7 +791,6 @@ namespace Computator.NET.Charting.RealCharting
 
             if (dx <= 0 || dy <= 0)
             {
-                Logger.Warn($"dx '{dx}' or dy '{dy}' less than 0. Chart will not be drawn.");
                 return;
             }
 

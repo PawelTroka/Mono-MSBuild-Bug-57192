@@ -44,7 +44,6 @@
     <Reference Include="WindowsFormsIntegration" Condition=" '$(OS)' != 'Unix' " />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NLog" Version="4.4.10" />
     <ProjectReference Include="..\Computator.NET.DataTypes\Computator.NET.DataTypes.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net40'">

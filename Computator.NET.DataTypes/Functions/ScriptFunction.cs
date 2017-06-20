@@ -20,8 +20,7 @@ namespace Computator.NET.DataTypes
             catch (Exception exception)
             {
                 var message = "Calculation Error, details:" + Environment.NewLine + exception.Message;
-                Logger.Error(exception, $"{message}.{Environment.NewLine}{nameof(TslCode)} = '{TslCode}'{Environment.NewLine}{nameof(CsCode)} = '{CsCode}'{Environment.NewLine}{nameof(FunctionType)} = '{FunctionType}'");
-                throw new CalculationException(message, exception);
+               throw new CalculationException(message, exception);
             }
         }
     }

@@ -9,14 +9,11 @@ using System.Windows.Forms;
 using Computator.NET.Charting.Printing;
 using Computator.NET.DataTypes;
 using Computator.NET.DataTypes.Charts;
-using NLog;
 
 namespace Computator.NET.Charting.ComplexCharting
 {
     public sealed class ComplexChart : Control, IComplexChart
     {
-
-        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
         public event PropertyChangedEventHandler PropertyChanged;
 
         private void OnPropertyChanged(string propertyName)
@@ -619,8 +616,7 @@ namespace Computator.NET.Charting.ComplexCharting
             {
                 //ultra rarely this can happen for coefficients r,g,b being NaNs or infinities
                 //in this case we treat it as no value in this place and log error
-                Logger.Warn($"Cannot create color because for (h, s, v) ({hue}, {saturation}, {value}) we get coefficients (r, g, b) being ({r}, {g}, {b}) which means that RGB is {ir} {ib} {ig}");
-                return Color.White;
+          return Color.White;
             }
             return Color.FromArgb(ir, ig, ib);
         }

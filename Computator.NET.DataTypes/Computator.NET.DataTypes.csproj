@@ -37,7 +37,4 @@
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="NLog" Version="4.4.10" />
-  </ItemGroup>
 </Project>
