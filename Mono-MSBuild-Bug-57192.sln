@@ -6,7 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{90DF2951-A6AE-4AEF-9BCF-55DCF4FEFF3E}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
-		build.cake = build.cake
+		build.sh = build.sh
+		restore.sh = restore.sh
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Computator.NET.DataTypes", "Computator.NET.DataTypes\Computator.NET.DataTypes.csproj", "{66D600D2-C0C4-4C90-B32A-310F62E1A850}"

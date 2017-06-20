@@ -247,8 +247,9 @@ matrix:
 #before_install:
 
 before_script:
+  - chmod +x restore.sh
   - chmod +x build.sh
-  - build.sh --target Restore
+  - source ./restore.sh
 
 script:
-  - build.sh --target Build
+  - ./build.sh
