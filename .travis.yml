@@ -248,7 +248,7 @@ matrix:
 
 before_script:
   - chmod +x build.sh
-  - ./build.sh --target Restore
+  - build.sh --target Restore
 
 script:
-  - ./build.sh --target Build
+  - build.sh --target Build
